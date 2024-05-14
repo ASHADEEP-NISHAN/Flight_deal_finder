@@ -3,7 +3,6 @@ import os
 from pprint import pprint
 SHEETY_PRICES_ENDPOINT="https://api.sheety.co/ef4a2d58feee89465b92b29f46ee213b/flightDeals/prices"
 SHEETY_USERS_ENDPOINT="https://api.sheety.co/ef4a2d58feee89465b92b29f46ee213b/flightDeals/users"
-# Bearer="hfnourneliuh9hgrenIUGNFONI"
 Bearer=os.environ.get("Bearer")
 headers = {
             "Authorization": f"Bearer {Bearer}"}
