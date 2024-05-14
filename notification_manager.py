@@ -1,8 +1,8 @@
 from twilio.rest import Client
 from smtplib import SMTP
 import os
-my_email="nishan402017@gmail.com"
-password="imhc fluv guym tqsg"
+my_email="YOUR EMAIL"
+password="YOUR PASSWORD"
 TWILIO_SID = os.environ.get("TWILIO_SID")
 TWILIO_AUTH_TOKEN =os.environ.get("TWILIO_AUTH_TOKEN")
 TWILIO_VIRTUAL_NUMBER =os.environ.get("TWILIO_VIRTUAL_NUMBER")
