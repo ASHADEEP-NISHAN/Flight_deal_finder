@@ -3,7 +3,6 @@ from flight_data import FlightData
 import os
 
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-# TEQUILA_API_KEY = "-oi-8D4XrP3Kj05NUN9Ow-s7Nvyegy7r"
 TEQUILA_API_KEY=os.environ.get("TEQUILA_API_KEY")
 
 
